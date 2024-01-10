@@ -1,6 +1,10 @@
 let militaryTime = 0
 let Meridiem = ""
 let standardTime = 0
+// meow
+function github_repository_test () {
+	
+}
 forever(function () {
     militaryTime = game.askForNumber("What is the Military Time", 2)
     if (militaryTime >= 0 && militaryTime <= 23) {
